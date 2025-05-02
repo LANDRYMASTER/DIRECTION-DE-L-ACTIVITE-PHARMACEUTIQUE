@@ -543,6 +543,107 @@ main {
   }
 }
 
+/* Structure générale */
+.information {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+/* Colonnes */
+.RECRU {
+  display: flex;
+  flex-direction: column;
+}
+
+#link-info {
+  text-decoration: none;
+  color: black;
+  transition: 0.3s ease;
+}
+
+#lecture {
+  margin-left: auto;
+  padding: 10px 20px;
+  background-color: #EC681D;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.5s ease;
+  width: fit-content;
+}
+
+.RECRU > a:hover {
+  background-color: #ec691dcf;
+  transform: scale(1.1);
+}
+
+#link-info:hover {
+  color: #EC681D;
+}
+
+/* Titres */
+.information h2, .information h3 {
+  border-top: 2px solid orange;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.RECRU img {
+  min-height: 200px;
+  width: 100%;
+  background-color: #ccc;
+  border-radius: 5px;
+}
+
+.RECRU p {
+  padding: 0 15px;
+}
+
+/* Actualités */
+.information article {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-bottom: 20px;
+  gap: 15px;
+}
+
+.information article div {
+  display: flex;
+  flex-direction: column;
+}
+
+.information article img {
+  width: 150px;
+  min-height: 200px;
+  background-color: #ccc;
+  border-radius: 5px;
+}
+
+.information article p {
+  margin: 5px 0;
+}
+
+/* Événement */
+.information div img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Liste des structures */
+.information ul {
+  padding-left: 20px;
+}
+
+.information ul li {
+  margin-bottom: 5px;
+}
+
+
 footer {
   background-color: #237E34;
 }
