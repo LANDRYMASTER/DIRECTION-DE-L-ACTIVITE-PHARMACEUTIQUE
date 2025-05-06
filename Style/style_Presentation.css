@@ -1,0 +1,200 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+#body {
+    background-color: white;
+}
+
+.lead {
+    width: 100%;
+    min-height: 40vh;
+    background-color: #565652;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: url(../IMG/editorial.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: blur();
+}
+
+h1 {
+    font-size: 35px;
+    color: white;
+}
+
+.lead p {
+    font-size: 20px;
+    color: #EC681D;
+}
+
+.lead a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s ease;
+
+}
+.lead a:hover {
+    color: #EC681D;
+}
+
+article {
+    width: 100%;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    box-sizing: border-box;
+    margin: 30px 0;
+}
+
+h2 {
+    color: #EC681D;
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+article p {
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+article h3 {
+    font-size: 23px;
+}
+
+article ul {
+    margin-left: 30px;
+
+}
+
+article li {
+    font-size: 22px;
+}
+
+.MDLD {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1.5fr 2fr ;
+    column-gap: 10px;
+    margin-top: 50px;
+}
+
+.MDLD div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    row-gap: 20px;
+}
+
+.MDLD img {
+    width: 100%;
+    aspect-ratio: 1.2;
+    border-bottom: 5px solid #EC681D;
+}
+
+.MDLD div p {
+    width: 100%;
+    background-color: #EC681D;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+
+.MDLD > p {
+    text-align: center;
+    margin: auto;
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+.BIENVENUE {
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20pxpx;
+}
+
+.BIENVENUE > div {
+    width: 500px;
+    height: 2px;
+    margin: auto;
+    background-color: #237E34;
+}
+
+.BIENVENUE h2 {
+    text-align: center;
+    font-size: 30px;
+    margin: 20px;
+}
+
+.BIENVENUE p {
+    font-size: 23px;
+    letter-spacing: 1px;
+}
+
+.BIENVENUE ul {
+    margin-left: 50px;
+}
+
+.BIENVENUE li {
+    font-size: 23px;
+}
+
+.Anuaire {
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 35px;
+    width: 100%;
+}
+
+.Anuaire div {
+    display: flex;
+    flex-direction: column;
+    background-color: #ccc;
+    margin: 15px 0;
+    gap: 10px;
+}
+
+.Anuaire img {
+    width: 100%;
+    aspect-ratio: 1.3;
+}
+
+.Anuaire h4 {
+    font-size: 20px;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.Anuaire p {
+    margin: 10px;
+}
+
+.Anuaire a {
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: #EC681D;
+    color: white;
+    border-radius: 5px;
+    width: fit-content;
+    font-size: 18px;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+  

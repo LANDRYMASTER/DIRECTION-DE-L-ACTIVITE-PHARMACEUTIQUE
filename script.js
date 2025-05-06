@@ -1,10 +1,10 @@
-
-
 const nav = document.querySelector('.nav');
 const nav_logo = document.querySelector('.nav-logo');
 const listeDocments = document.querySelectorAll('#Liste-Documentation article');
+const activités = document.querySelectorAll('.information article');
+const plus = document.querySelectorAll('#plus');
 
-
+console.log("js chargé");
 
 // Quand la page détecte un scroll...
 window.addEventListener('scroll', function () {
@@ -29,4 +29,12 @@ if (window.scrollY >= 420) {
 }
 });
 
-
+activités.forEach((article, index) => {
+    article.addEventListener('mouseover', () => {
+      plus[index].classList.add('day'); // Classe ou style au survol
+    });
+  
+    article.addEventListener('mouseout', () => {
+      plus[index].classList.remove('day'); // Enlève au retrait de la souris
+    });
+  });
