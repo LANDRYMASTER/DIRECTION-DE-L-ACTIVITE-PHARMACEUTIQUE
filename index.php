@@ -80,7 +80,7 @@
 
     <section >
       <div id="Documentation">
-        <h2 class="Titre_Section">Nos Derniers Articles</h2>
+        <h2 class="Titre_Section">DOCUMENTATION</h2>
     
         <div id="Liste-Documentation">
     
@@ -119,7 +119,7 @@
 
       <!-- Autres actualités -->
       <div>
-        <a href="#" id="link-info"><h2>AUTRES ACTUALITÉS</h2></a>
+        <a href="#" id="link-info"><h2>ACTUALITÉS</h2></a>
 
         <div>
           <article>
@@ -127,7 +127,7 @@
             <div>
               <h3>Promotion de la CMU/ Voix des Anges - V.D.A et Apoutchou National faits ambassadeurs de la Campagne</h3>
               <p>Le groupe zouglou "VDA" et Apoutchou National sont désormais des ambassadeurs de la CMU après avoir sorti un titre intitulé "CMU".</p>
-              <div id="plus" >
+              <div class='noday plus'>
                 <p>20/15/2025</p>
                 <a href="">lire plus</a>
               </div>
@@ -139,7 +139,7 @@
             <div>
               <h3>Coopération Bilatérale/ Le ministre Pierre DIMBA et son homologue de Sao Tomé-et-Principe signent un accord</h3>
               <p>Le groupe zouglou "VDA" et Apoutchou National sont désormais des ambassadeurs de la CMU après avoir sorti un titre intitulé "CMU".</p>
-              <div id="plus">
+              <div class='noday plus'>
                 <p>20/15/2025</p>
                 <a href="">lire plus</a>
               </div>
@@ -151,7 +151,7 @@
             <div>
               <h3>Promotion de la CMU/ Voix des Anges - V.D.A et Apoutchou National faits ambassadeurs de la Campagne</h3>
               <p>Le groupe zouglou "VDA" et Apoutchou National sont désormais des ambassadeurs de la CMU après avoir sorti un titre intitulé "CMU".</p>
-              <div id="plus">
+              <div class='noday plus'>
                 <p>20/15/2025</p>
                 <a href="">lire plus</a>
               </div>
@@ -163,7 +163,7 @@
             <div>
               <h3>Promotion de la CMU/ Voix des Anges - V.D.A et Apoutchou National faits ambassadeurs de la Campagne</h3>
               <p>Le groupe zouglou "VDA" et Apoutchou National sont désormais des ambassadeurs de la CMU après avoir sorti un titre intitulé "CMU".</p>
-              <div id="plus">
+              <div class='noday plus'>
                 <p>20/15/2025</p>
                 <a href="">lire plus</a>
               </div>
@@ -198,13 +198,12 @@
       </div>
     </section>
 
-    <section>
+    <!-- <section>
       <div id="Actualités">
         <h2 class="Titre_Section">Articles et panel d'échanges</h2>
         <p class="Description_Section">Inscrivez vous a notre newsletter et restez au parfum de nos dernieres publications</p>
 
         <div id="Articles">
-          <!-- Article 1 -->
           <article>
             <img src="https://via.placeholder.com/300x200" alt="Article 1">
             <div>
@@ -214,7 +213,6 @@
             </div>
           </article>
 
-          <!-- Article 2 -->
           <article>
             <img src="https://via.placeholder.com/300x200" alt="Article 2">
             <div>
@@ -224,7 +222,6 @@
             </div>
           </article>
 
-          <!-- Article 3 -->
           <article>
             <img src="https://via.placeholder.com/300x200" alt="Article 3">
             <div>
@@ -234,7 +231,6 @@
             </div>
           </article>
 
-          <!-- Article 4 -->
           <article>
             <img src="https://via.placeholder.com/300x200" alt="Article 4">
             <div>
@@ -244,7 +240,6 @@
             </div>
           </article>
 
-          <!-- Article 5 -->
           <article>
             <img src="https://via.placeholder.com/300x200" alt="Article 5">
             <div>
@@ -254,7 +249,6 @@
             </div>
           </article>
 
-          <!-- Article 6 -->
           <article>
             <img src="https://via.placeholder.com/300x200" alt="Article ">
             <div>
@@ -264,7 +258,6 @@
             </div>
           </article>
 
-          <!-- Article 7 -->
           <article>
             <img src="https://via.placeholder.com/300x200" alt="Article 7">
             <div>
@@ -276,7 +269,7 @@
 
         </div>
       </div>
-    </section>
+    </section> -->
 
     <section>
       <div id="nos_partenaires">

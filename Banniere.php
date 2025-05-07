@@ -1,6 +1,6 @@
 <section class="slider-container">
       <div class="slider">
-        <div class="slide fade slide1">
+        <div class="slide  slide1">
           <div>
             <h2>Misions de la DAP</h2>
             <p>
@@ -9,11 +9,32 @@
             <button><a href="#">Consulter l'Editorial → </a></button>
           </div>
         </div>
-        <div class="slide fade slide2 desaffiche">
-          <div></div>
+        <div class="slide slide2">
+
         </div>
-        <div class="slide fade slide3 desaffiche">
-          <div></div>
+        <div class="slide slide3">
+
+        </div>
+        <div class="slide slide3">
+
+        </div>
+        <div class="slide slide3">
+
+        </div>
+        <div class="slide slide3">
+
+        </div>
+        <div class="slide slide3">
+
+        </div>
+        <div class="slide slide3">
+
+        </div>
+        <div class="slide slide3">
+
+        </div>
+        <div class="slide slide3">
+
         </div>
 
         <div class="dots">

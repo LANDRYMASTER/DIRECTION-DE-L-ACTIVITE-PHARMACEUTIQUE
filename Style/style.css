@@ -173,20 +173,23 @@ main {
   display: flex;
   position: relative;
   flex-direction: row;
+  animation: fade 1s ease-in-out;
 }
 
 .slide {
-  min-width: 100%;
-  min-height: 100%;
+  width: 100%;
+  height: 500px;
   display: flex;
   justify-content: end;
   align-items: end;
   position: absolute;
-  transition: 0.8s ease;
+  transition: 1s ease-in-out;
+  
 }
 
 .desaffiche {
   transform: translateX(100vw);
+  opacity: 0;
 }
 
 .slide1 {
@@ -217,7 +220,6 @@ main {
   justify-content: space-evenly;
   margin-right: 20px;
   margin-bottom: 20px;
-  
 }
 
 .slide h2 {
@@ -264,6 +266,10 @@ main {
   text-align: center;
 }
 
+.dot.select {
+  background-color: #EC681D;
+}
+
 .dot {
   height: 15px;
   aspect-ratio: 1;
@@ -272,6 +278,11 @@ main {
   border-radius: 50%;
   display: inline-block;
   cursor: pointer;
+}
+
+@keyframes fade {
+  from { opacity: 0.4; }
+  to { opacity: 1; }
 }
 
 /* Lien utile */
@@ -624,6 +635,7 @@ main {
   height: 470px;
   overflow: hidden;
   position: relative;
+  border-bottom: 2px solid #332a0b;
 }
 
 .information article > div {
@@ -646,30 +658,31 @@ main {
   width: 100%;
 }
 
-#plus {
+.plus {
   display: flex;
   width: 100%;
   position: relative;
   justify-content: space-around;
   align-items: center;
   background-color: #332a0b;
-  padding: 30px 0;
+  padding: 10px 0;
   z-index: 10;
+  transition: 0.5s ease;
+  top: -430px;
 }
 
-.day {
-  bottom: 90px;
-  transition: 1s ease;
+.noday {
+  top: -530px;
 }
 
-#plus a {
+.plus a {
   padding: 10px 20px;
   color: #EC681D;
   border-radius: 5px;
   text-decoration: none;
 }
 
-#plus p {
+.plus p {
   font-size: 18px;
   font-weight: bold;
   color: white;
