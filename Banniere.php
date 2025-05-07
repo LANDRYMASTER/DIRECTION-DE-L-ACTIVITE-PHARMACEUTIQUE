@@ -15,7 +15,7 @@
         <div class="slide slide3">
 
         </div>
-        <div class="slide slide3">
+        <!-- <div class="slide slide3">
 
         </div>
         <div class="slide slide3">
@@ -35,19 +35,19 @@
         </div>
         <div class="slide slide3">
 
-        </div>
+        </div> -->
 
         <div class="dots">
           <span class="dot"></span>
           <span class="dot"></span>
           <span class="dot"></span>
+          <!-- <span class="dot"></span>
           <span class="dot"></span>
           <span class="dot"></span>
           <span class="dot"></span>
           <span class="dot"></span>
           <span class="dot"></span>
-          <span class="dot"></span>
-          <span class="dot"></span>
+          <span class="dot"></span> -->
         </div>
       </div>
     </section>

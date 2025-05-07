@@ -25,6 +25,11 @@
   <!-- Feuille de style -->
   <link rel="stylesheet" href="Style/style.css">
 
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Tuffy:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
   <!-- Open Graph pour les réseaux sociaux (Facebook, LinkedIn, etc.) -->
   <!-- <meta property="og:title" content="Direction de l’Activité Pharmaceutique - Côte d’Ivoire">
   <meta property="og:description" content="Découvrez les actions et missions de la DAP en Côte d’Ivoire pour un accès sécurisé aux médicaments.">
@@ -77,6 +82,20 @@
         <span class="right"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#EC681D" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link-icon lucide-external-link"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></span>
       </div>
     </section>
+
+    <!-- <section class="Annonce">
+      <div>
+        <img src="https://img.freepik.com/free-photo/medium-shot-health-worker-holding-pill-container_23-2148814240.jpg?t=st=1746625843~exp=1746629443~hmac=4d03622e01335a65a49cf81ca6eb2117a9c306ec8819db5e457942c7a8ed5138&w=826" alt="Description de l'image">
+      </div>
+      <img src="https://img.freepik.com/free-photo/medium-shot-health-worker-holding-pill-container_23-2148814240.jpg?t=st=1746625843~exp=1746629443~hmac=4d03622e01335a65a49cf81ca6eb2117a9c306ec8819db5e457942c7a8ed5138&w=826" alt="Description de l'image">
+      <div>
+        <h2>Titre de la section</h2>
+        <p>
+          Ceci est un exemple de texte qui accompagne l'image. Vous pouvez y mettre une description, une explication
+          ou toute autre information pertinente.
+        </p>
+      </div>
+    </section> -->
 
     <section >
       <div id="Documentation">
