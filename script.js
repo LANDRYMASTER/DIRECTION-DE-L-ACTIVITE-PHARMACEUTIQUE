@@ -5,6 +5,7 @@ const activités = document.querySelectorAll('.information article');
 const plus = document.querySelectorAll('#plus');
 
 console.log("js chargé");
+console.log(window.scrollY);
 
 // Quand la page détecte un scroll...
 window.addEventListener('scroll', function () {

@@ -34,7 +34,7 @@ nav {
     justify-content: space-around;
     position: sticky;
     top: 0;
-    z-index: 10;
+    z-index: 20;
 }
 
 .fixer {
@@ -655,16 +655,15 @@ main {
   background-color: #332a0b;
   padding: 30px 0;
   z-index: 10;
-  transition: 0.5s ease;
 }
 
 .day {
   bottom: 90px;
+  transition: 1s ease;
 }
 
 #plus a {
   padding: 10px 20px;
-  /* background-color: #EC681D; */
   color: #EC681D;
   border-radius: 5px;
   text-decoration: none;
