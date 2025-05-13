@@ -1,0 +1,87 @@
+
+
+
+
+/* pour le style des documents */
+
+.slider-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 1000%; /* 10 slides x 100% each */
+  gap: 20px;
+}
+
+.slide-item {
+  width: 210px;
+  height: 100%;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.slider-prev,
+.slider-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #333;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.slider-prev {
+  left: 10px;
+}
+
+.slider-next {
+  right: 10px;
+}
+
+.slider-dots {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.slider-dots button {
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  border-radius: 50%;
+  border: none;
+  background: #bbb;
+  cursor: pointer;
+}
+
+.slider-dots button.active {
+  background: #333;
+}
+
+/* popovers de la documentation */
+
+.link_documents {
+    position: absolute;
+    top: 30%;
+    left: 10px;
+    padding: 5px 15px;
+    font-weight: bold;
+    font-size: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    background-color: #EC681D;
+    color: #333;
+    animation: trumble 3s infinite linear;
+    z-index: 2;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+@keyframes trumble {
+    0%, 70%, 75%, 80%, 85%, 90%, 95%, 100% {
+        transform: rotateZ(-35deg);
+    }
+    72%, 77%, 82%, 87%, 92%, 97% {
+        transform: rotateZ(35deg);
+    }
+}

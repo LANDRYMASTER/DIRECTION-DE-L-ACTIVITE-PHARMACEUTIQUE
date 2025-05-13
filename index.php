@@ -24,6 +24,8 @@
 
   <!-- Feuille de style -->
   <link rel="stylesheet" href="Style/style.css">
+  <link rel="stylesheet" href="Style/Directrice.css">
+  <link rel="stylesheet" href="Style/index.css">
 
   <!-- fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -50,11 +52,13 @@
   <?php include 'header.php'; ?>
   <!-- Header -->
 
+  <main>
+    <a href='#Documents' class='link_documents'>consulter <br> les documents</a>
+
     <!-- Banniere -->
-    <?php include 'Banniere.php'; ?>
+      <?php include 'Banniere.php'; ?>
     <!-- Banniere -->
 
-  <main>
     <!-- Quick Links -->
     <section class="quick-links">
       <div class="link-box">
@@ -83,53 +87,91 @@
       </div>
     </section>
 
-    <!-- <section class="Annonce">
-      <div>
-        <img src="https://img.freepik.com/free-photo/medium-shot-health-worker-holding-pill-container_23-2148814240.jpg?t=st=1746625843~exp=1746629443~hmac=4d03622e01335a65a49cf81ca6eb2117a9c306ec8819db5e457942c7a8ed5138&w=826" alt="Description de l'image">
+    <!-- <section class="Directrice">
+      <div class="Mr_duncan">
+        <img src="IMG/Dr DUNCAN_DAP off.png" alt="La directrice de la DAP">
+        <p>Dr Rachel Ahoubé DUNCAN</p>
       </div>
-      <img src="https://img.freepik.com/free-photo/medium-shot-health-worker-holding-pill-container_23-2148814240.jpg?t=st=1746625843~exp=1746629443~hmac=4d03622e01335a65a49cf81ca6eb2117a9c306ec8819db5e457942c7a8ed5138&w=826" alt="Description de l'image">
-      <div>
-        <h2>Titre de la section</h2>
-        <p>
-          Ceci est un exemple de texte qui accompagne l'image. Vous pouvez y mettre une description, une explication
-          ou toute autre information pertinente.
-        </p>
-      </div>
+      <div class='Le_Mot'>
+        <h1>Mot de la Directrice Generale de DAP</h1>
+        <p>Nous sommes très heureux de vous accueillir sur le site officiel de la Direction des Activités Pharmaceutiques (DAP.CI).
+        Votre visite témoigne de l’intérêt que vous portez à notre mission de garantir un accès équitable à des médicaments sûrs, efficaces et de qualité pour tous....</p>
+        <a href=""> lire la suite </a>
+        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D100081596874500&tabs&width=340&height=130&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="130" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>      </div>
     </section> -->
 
-    <section >
-      <div id="Documentation">
-        <h2 class="Titre_Section">DOCUMENTATION</h2>
-    
-        <div id="Liste-Documentation">
-    
-          <!-- Article 1 -->
-          <article class="affiche">
-            <img src="IMG/Alerte-pharmaco.jpg" alt="Image de l'article 1">
-            <div>
-              <h3>Documents Elaborés</h3>
-              <a href="#">Decouvrir tous</a>
-            </div>
-          </article>
-    
-          <!-- Article 2 -->
-          <article class="affiche">
-            <img src="IMG/PHARMANEWS-8-jpeg.jpg" alt="Image de l'article 2">
-            <div>
-              <h3>Pharmanews</h3>
-              <a href="#">Decouvrir tous</a>
-            </div>
-          </article>
-    
-          <!-- Article 3 -->
-          <article class="affiche">
-            <img src="IMG/Capture d'écran 2025-04-22 114705.png" alt="Image de l'article 3">
-            <div>
-              <h3>Documents Officiels</h3>
-              <a href="#">Decouvrir tous</a>
-            </div>
-          </article>
-    
+    <section id='Documents'>
+      <div id="documentation">
+        <a href="#">Documents Elaborés</a>
+        <a href="#">Pharmanews</a>
+        <a href="#">Documents Officiels</a>
+      </div>
+      <div id='box-documents'>
+        <div id='box_Documents_Elaborés'>
+          <div class="slider-track">
+            <div class="slide-item"></div>
+            <div class="slide-item"></div>
+            <div class="slide-item"></div>
+            <div class="slide-item"></div>
+            <div class="slide-item"></div>
+            <div class="slide-item"></div>
+            <div class="slide-item"></div>
+            <div class="slide-item"></div>
+            <div class="slide-item"></div>
+            <div class="slide-item"></div>
+          </div>
+
+          <!-- Flèches -->
+          <button class="slider-prev">←</button>
+          <button class="slider-next">→</button>
+
+          <!-- Dots -->
+          <div class="slider-dots"></div>
+
+        </div>
+        <div id='box_Pharmanews'>
+          <div class="slider-track">
+            <div class="slide-item"></div>
+            <div class="slide-item"></div>
+            <div class="slide-item"></div>
+            <div class="slide-item"></div>
+            <div class="slide-item"></div>
+            <div class="slide-item"></div>
+            <div class="slide-item"></div>
+            <div class="slide-item"></div>
+            <div class="slide-item"></div>
+            <div class="slide-item"></div>
+          </div>
+
+          <!-- Flèches -->
+          <button class="slider-prev">←</button>
+          <button class="slider-next">→</button>
+
+          <!-- Dots -->
+          <div class="slider-dots"></div>
+
+        </div>
+        <div id='box_Documents_Officiels'>
+          <div class="slider-track">
+            <div class="slide-item"></div>
+            <div class="slide-item"></div>
+            <div class="slide-item"></div>
+            <div class="slide-item"></div>
+            <div class="slide-item"></div>
+            <div class="slide-item"></div>
+            <div class="slide-item"></div>
+            <div class="slide-item"></div>
+            <div class="slide-item"></div>
+            <div class="slide-item"></div>
+          </div>
+
+          <!-- Flèches -->
+          <button class="slider-prev">←</button>
+          <button class="slider-next">→</button>
+
+          <!-- Dots -->
+          <div class="slider-dots"></div>
+
         </div>
       </div>
     </section>
@@ -138,57 +180,47 @@
 
       <!-- Autres actualités -->
       <div>
-        <a href="#" id="link-info"><h2>ACTUALITÉS</h2></a>
+        <h2>ACTUALITÉS</h2>
 
         <div>
           <article>
             <img src="https://img.freepik.com/free-photo/group-afro-americans-working-together_1303-8979.jpg?t=st=1746546355~exp=1746549955~hmac=831f433cc1ca92235212802c237c7e501d84f9714489a7a2aca852bc950f0064&w=1380" alt="Ambassadeurs CMU">
+            <p>20/15/2025 * <a href="">Actualités</a></p>
             <div>
-              <h3>Promotion de la CMU/ Voix des Anges - V.D.A et Apoutchou National faits ambassadeurs de la Campagne</h3>
-              <p>Le groupe zouglou "VDA" et Apoutchou National sont désormais des ambassadeurs de la CMU après avoir sorti un titre intitulé "CMU".</p>
-              <div class='noday plus'>
-                <p>20/15/2025</p>
-                <a href="">lire plus</a>
-              </div>
+              <h3>Promotion de la CMU/ Voix des Anges - V.D.A et Apoutchou National faits ambassadeurs </h3>
+              <p>Le groupe zouglou "VDA" et Apoutchou National sont désormais des ambassadeurs de la CMU après avoir sorti un titre intitulé "CMU". <span><a href="">lire la suite</a></span></p>
             </div>
           </article>
       
           <article>
             <img src="https://img.freepik.com/free-photo/group-afro-americans-working-together_1303-8979.jpg?t=st=1746546355~exp=1746549955~hmac=831f433cc1ca92235212802c237c7e501d84f9714489a7a2aca852bc950f0064&w=1380" alt="Accord de coopération">
+            <p>20/15/2025 * <a href="">Actualités</a></p>
             <div>
-              <h3>Coopération Bilatérale/ Le ministre Pierre DIMBA et son homologue de Sao Tomé-et-Principe signent un accord</h3>
-              <p>Le groupe zouglou "VDA" et Apoutchou National sont désormais des ambassadeurs de la CMU après avoir sorti un titre intitulé "CMU".</p>
-              <div class='noday plus'>
-                <p>20/15/2025</p>
-                <a href="">lire plus</a>
-              </div>
+              <h3>Coopération Bilatérale/ Le ministre Pierre DIMBA et son homologue de Sao Tomé</h3>
+              <p>Le groupe zouglou "VDA" et Apoutchou National sont désormais des ambassadeurs de la CMU après avoir sorti un titre intitulé "CMU". <span><a href="">lire la suite</a></span></p>
             </div>
           </article>
 
           <article>
             <img src="https://img.freepik.com/free-photo/group-afro-americans-working-together_1303-8979.jpg?t=st=1746546355~exp=1746549955~hmac=831f433cc1ca92235212802c237c7e501d84f9714489a7a2aca852bc950f0064&w=1380" alt="Ambassadeurs CMU">
+            <p>20/15/2025 * <a href="">Actualités</a></p>
             <div>
-              <h3>Promotion de la CMU/ Voix des Anges - V.D.A et Apoutchou National faits ambassadeurs de la Campagne</h3>
-              <p>Le groupe zouglou "VDA" et Apoutchou National sont désormais des ambassadeurs de la CMU après avoir sorti un titre intitulé "CMU".</p>
-              <div class='noday plus'>
-                <p>20/15/2025</p>
-                <a href="">lire plus</a>
-              </div>
+              <h3>Promotion de la CMU/ Voix des Anges - V.D.A et Apoutchou National faits ambassadeurs </h3>
+              <p>Le groupe zouglou "VDA" et Apoutchou National sont désormais des ambassadeurs de la CMU après avoir sorti un titre intitulé "CMU". <span><a href="">lire la suite</a></span></p>
             </div>
           </article>
 
           <article>
             <img src="https://img.freepik.com/free-photo/group-afro-americans-working-together_1303-8979.jpg?t=st=1746546355~exp=1746549955~hmac=831f433cc1ca92235212802c237c7e501d84f9714489a7a2aca852bc950f0064&w=1380" alt="Ambassadeurs CMU">
+            <p>20/15/2025 * <a href="">Actualités</a></p>
             <div>
-              <h3>Promotion de la CMU/ Voix des Anges - V.D.A et Apoutchou National faits ambassadeurs de la Campagne</h3>
-              <p>Le groupe zouglou "VDA" et Apoutchou National sont désormais des ambassadeurs de la CMU après avoir sorti un titre intitulé "CMU".</p>
-              <div class='noday plus'>
-                <p>20/15/2025</p>
-                <a href="">lire plus</a>
-              </div>
+              <h3>Promotion de la CMU/ Voix des Anges - V.D.A et Apoutchou National faits ambassadeurs</h3>
+              <p>Le groupe zouglou "VDA" et Apoutchou National sont désormais des ambassadeurs de la CMU après avoir sorti un titre intitulé "CMU". <span><a href="">lire la suite</a></span></p>
             </div>
           </article>
         </div>
+
+        <a href="#"><p>Tout voir.......</p></a>
       </div>
     
       <!-- Événements -->
@@ -200,7 +232,6 @@
         <a href="#" id="lecture">Postuler</a>
       </div>
     </section>
-    
     
     <section class="EMPLOIYE">
       <div class="employe-jour">
@@ -327,5 +358,6 @@
   <!-- footer -->
 
   <script src="script.js"></script>
+
 </body>
 </html>

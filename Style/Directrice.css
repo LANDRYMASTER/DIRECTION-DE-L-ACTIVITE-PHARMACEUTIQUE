@@ -1,0 +1,62 @@
+
+.Directrice {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr  2fr;
+    padding: 10px;
+    font-family: 'Roboto';
+}
+
+.Directrice h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.Mr_duncan {
+    width: 100%;
+}
+
+.Mr_duncan img{
+    max-width: 80%;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0 0 5px #EC681D;
+    aspect-ratio: 1;
+}
+
+.Mr_duncan p {
+    font-size: 18px;
+    border-bottom: 2px solid #EC681D;
+    text-align: end;
+    margin-top: 5px;
+    font-weight: 400;
+}
+
+.Le_Mot p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #1F1F1FB3;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.Le_Mot {
+    display: flex; 
+    flex-direction: column;
+}
+
+.Le_Mot a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px;
+    background-color: #1268EB;
+    width: fit-content;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.Le_Mot iframe {
+    justify-items: end;
+    margin-left: auto;
+}
