@@ -109,16 +109,16 @@
       <div id='box-documents'>
         <div id='box_Documents_Elaborés'>
           <div class="slider-track">
-            <div class="slide-item"></div>
-            <div class="slide-item"></div>
-            <div class="slide-item"></div>
-            <div class="slide-item"></div>
-            <div class="slide-item"></div>
-            <div class="slide-item"></div>
-            <div class="slide-item"></div>
-            <div class="slide-item"></div>
-            <div class="slide-item"></div>
-            <div class="slide-item"></div>
+            <div class="slide-item"><a href="Documents/PNSCA-2016-2020-Revise-VF-V1.pdf" target='blank'><img src="IMG/Capture d'écran 2025-04-22 114705.png" alt=""></a></div>
+            <div class="slide-item"><a href="Documents/PNSCA-2016-2020-Revise-VF-V1.pdf" target='blank'><img src="IMG/Capture d'écran 2025-04-22 114705.png" alt=""></a></div>
+            <div class="slide-item"><a href="Documents/PNSCA-2016-2020-Revise-VF-V1.pdf" target='blank'><img src="IMG/Capture d'écran 2025-04-22 114705.png" alt=""></a></div>
+            <div class="slide-item"><a href="Documents/PNSCA-2016-2020-Revise-VF-V1.pdf" target='blank'><img src="IMG/Capture d'écran 2025-04-22 114705.png" alt=""></a></div>
+            <div class="slide-item"><a href="Documents/PNSCA-2016-2020-Revise-VF-V1.pdf" target='blank'><img src="IMG/Capture d'écran 2025-04-22 114705.png" alt=""></a></div>
+            <div class="slide-item"><a href="Documents/PNSCA-2016-2020-Revise-VF-V1.pdf" target='blank'><img src="IMG/Capture d'écran 2025-04-22 114705.png" alt=""></a></div>
+            <div class="slide-item"><a href="Documents/PNSCA-2016-2020-Revise-VF-V1.pdf" target='blank'><img src="IMG/Capture d'écran 2025-04-22 114705.png" alt=""></a></div>
+            <div class="slide-item"><a href="Documents/PNSCA-2016-2020-Revise-VF-V1.pdf" target='blank'><img src="IMG/Capture d'écran 2025-04-22 114705.png" alt=""></a></div>
+            <div class="slide-item"><a href="Documents/PNSCA-2016-2020-Revise-VF-V1.pdf" target='blank'><img src="IMG/Capture d'écran 2025-04-22 114705.png" alt=""></a></div>
+            <div class="slide-item"><a href="Documents/PNSCA-2016-2020-Revise-VF-V1.pdf" target='blank'><img src="IMG/Capture d'écran 2025-04-22 114705.png" alt=""></a></div>
           </div>
 
           <!-- Flèches -->
@@ -131,16 +131,16 @@
         </div>
         <div id='box_Pharmanews'>
           <div class="slider-track">
-            <div class="slide-item"></div>
-            <div class="slide-item"></div>
-            <div class="slide-item"></div>
-            <div class="slide-item"></div>
-            <div class="slide-item"></div>
-            <div class="slide-item"></div>
-            <div class="slide-item"></div>
-            <div class="slide-item"></div>
-            <div class="slide-item"></div>
-            <div class="slide-item"></div>
+            <div class="slide-item"><a href="Documents/PHARMANEWS-1.pdf" target='blank'><img src="IMG/PHARMANEWS-8-jpeg.jpg" alt=""></a></div>
+            <div class="slide-item"><a href="Documents/PHARMANEWS-1.pdf" target='blank'><img src="IMG/PHARMANEWS-8-jpeg.jpg" alt=""></a></div>
+            <div class="slide-item"><a href="Documents/PHARMANEWS-1.pdf" target='blank'><img src="IMG/PHARMANEWS-8-jpeg.jpg" alt=""></a></div>
+            <div class="slide-item"><a href="Documents/PHARMANEWS-1.pdf" target='blank'><img src="IMG/PHARMANEWS-8-jpeg.jpg" alt=""></a></div>
+            <div class="slide-item"><a href="Documents/PHARMANEWS-1.pdf" target='blank'><img src="IMG/PHARMANEWS-8-jpeg.jpg" alt=""></a></div>
+            <div class="slide-item"><a href="Documents/PHARMANEWS-1.pdf" target='blank'><img src="IMG/PHARMANEWS-8-jpeg.jpg" alt=""></a></div>
+            <div class="slide-item"><a href="Documents/PHARMANEWS-1.pdf" target='blank'><img src="IMG/PHARMANEWS-8-jpeg.jpg" alt=""></a></div>
+            <div class="slide-item"><a href="Documents/PHARMANEWS-1.pdf" target='blank'><img src="IMG/PHARMANEWS-8-jpeg.jpg" alt=""></a></div>
+            <div class="slide-item"><a href="Documents/PHARMANEWS-1.pdf" target='blank'><img src="IMG/PHARMANEWS-8-jpeg.jpg" alt=""></a></div>
+            <div class="slide-item"><a href="Documents/PHARMANEWS-1.pdf" target='blank'><img src="IMG/PHARMANEWS-8-jpeg.jpg" alt=""></a></div>
           </div>
 
           <!-- Flèches -->
@@ -153,16 +153,16 @@
         </div>
         <div id='box_Documents_Officiels'>
           <div class="slider-track">
-            <div class="slide-item"></div>
-            <div class="slide-item"></div>
-            <div class="slide-item"></div>
-            <div class="slide-item"></div>
-            <div class="slide-item"></div>
-            <div class="slide-item"></div>
-            <div class="slide-item"></div>
-            <div class="slide-item"></div>
-            <div class="slide-item"></div>
-            <div class="slide-item"></div>
+            <div class="slide-item"><a href="Documents/CMU_Actes-et-tarification_13-Juin-2019.pdf" target='blank'><img src="IMG/Alerte-pharmaco.jpg" alt=""></a></div>
+            <div class="slide-item"><a href="Documents/CMU_Actes-et-tarification_13-Juin-2019.pdf" target='blank'><img src="IMG/Alerte-pharmaco.jpg" alt=""></a></div>
+            <div class="slide-item"><a href="Documents/CMU_Actes-et-tarification_13-Juin-2019.pdf" target='blank'><img src="IMG/Alerte-pharmaco.jpg" alt=""></a></div>
+            <div class="slide-item"><a href="Documents/CMU_Actes-et-tarification_13-Juin-2019.pdf" target='blank'><img src="IMG/Alerte-pharmaco.jpg" alt=""></a></div>
+            <div class="slide-item"><a href="Documents/CMU_Actes-et-tarification_13-Juin-2019.pdf" target='blank'><img src="IMG/Alerte-pharmaco.jpg" alt=""></a></div>
+            <div class="slide-item"><a href="Documents/CMU_Actes-et-tarification_13-Juin-2019.pdf" target='blank'><img src="IMG/Alerte-pharmaco.jpg" alt=""></a></div>
+            <div class="slide-item"><a href="Documents/CMU_Actes-et-tarification_13-Juin-2019.pdf" target='blank'><img src="IMG/Alerte-pharmaco.jpg" alt=""></a></div>
+            <div class="slide-item"><a href="Documents/CMU_Actes-et-tarification_13-Juin-2019.pdf" target='blank'><img src="IMG/Alerte-pharmaco.jpg" alt=""></a></div>
+            <div class="slide-item"><a href="Documents/CMU_Actes-et-tarification_13-Juin-2019.pdf" target='blank'><img src="IMG/Alerte-pharmaco.jpg" alt=""></a></div>
+            <div class="slide-item"><a href="Documents/CMU_Actes-et-tarification_13-Juin-2019.pdf" target='blank'><img src="IMG/Alerte-pharmaco.jpg" alt=""></a></div>
           </div>
 
           <!-- Flèches -->
@@ -179,7 +179,7 @@
     <section class="information">
 
       <!-- Autres actualités -->
-      <div>
+      <div id='Actualités'>
         <h2>ACTUALITÉS</h2>
 
         <div>
@@ -220,7 +220,7 @@
           </article>
         </div>
 
-        <a href="#"><p>Tout voir.......</p></a>
+        <a href="#" id='plusDarticle'>Tout voir.......</a>
       </div>
     
       <!-- Événements -->
