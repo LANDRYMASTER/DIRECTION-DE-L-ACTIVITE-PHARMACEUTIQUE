@@ -10,6 +10,9 @@ const boxes = {
   'Documents Officiels': document.getElementById('box_Documents_Officiels')
 };
 
+const bubble = document.getElementById("floatingBubble");
+let visible = false;
+
 // Quand la page détecte un scroll...
 window.addEventListener('scroll', function () {
 // Vérifie si l'utilisateur a scrollé vers le bas
@@ -35,6 +38,7 @@ else  {
       lien.classList.add('white');
     });
 }
+
 });
 
 let index = 0;
@@ -163,5 +167,12 @@ allSliders.forEach(sliderBox => {
     updateSlider();
   }, 5000);
 });
+
+  if ( !bubble.dataset.activated) {
+      bubble.dataset.activated = true;
+      // Démarre les apparitions/disparitions toutes les 5 minutes (300000 ms)
+      toggleBubble(); // 1ère apparition directe
+      setInterval(toggleBubble, 5000); // toutes les 2 min
+    }
 
 

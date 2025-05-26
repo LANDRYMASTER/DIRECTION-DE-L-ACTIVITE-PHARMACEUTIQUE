@@ -1,7 +1,5 @@
 
 
-
-
 /* pour le style des documents */
 
 .slider-track {
@@ -89,3 +87,86 @@
         transform: rotateZ(35deg);
     }
 }
+
+#floatingBubble {
+  position: fixed;
+  right: 10px; /* cachée hors de l'écran */
+  bottom: 100px;
+  width: 140px;
+  height: 60px;
+  background-color: #EC681D;
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  display: flex;
+  transition: right 0.5s ease;
+  z-index: 9999;
+  cursor: pointer;
+}
+
+#notif {
+  max-width: 1000px;
+  margin: auto;
+  border-top: 5px solid #237E34;
+
+}
+
+#notif div {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#notif div h3 {
+  font-size: 45px;
+  text-align: center;
+}
+
+#notif div a {
+  text-decoration: none;
+  padding: 15px 40px;
+  color: white;
+  border-radius: 10px;
+  background-size: 300%;
+  animation: fluide 3s infinite linear;
+  font-size: 30px;
+  margin-top: 15px;
+}
+
+@keyframes fluide {
+  0%, 100% {
+    background-color: #EC681D;
+  }
+  50% {
+    background-color: #333;
+  }
+}
+
+#notif div a:hover {
+  background-color: #237E34;
+  animation: none;
+  transition: 1s ease;
+}
+
+#last_information {
+  display: grid;
+  grid-template-columns: repeat(3 ,  1fr);
+  column-gap: 50px;
+  padding: 0 20px;
+}
+
+.last_information_items {
+  width: 100%;
+  min-height: 500px;
+  box-shadow: 0 0 5px #333;
+  cursor: pointer;
+  transition: 0.5s ease;
+  border-radius: 10px;
+}
+
+.last_information_items:hover {
+  box-shadow: 0 0 10px #333;
+  transform: scale(1.1);
+}
+

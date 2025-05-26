@@ -62,28 +62,24 @@
     <!-- Quick Links -->
     <section class="quick-links">
       <div class="link-box">
+        <img src="IMG/cropped-pdddap.png" alt="">
         <h3>E-learning</h3>
         <p>Visitez notre plateforme de formation en ligne e-caps</p>
-        <span class="left"><img src="IMG/cropped-pdddap.png" alt=""></span>
-        <span class="right"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#EC681D" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link-icon lucide-external-link"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></span>
       </div>
       <div class="link-box">
+        <img src="IMG/cropped-pdddap.png" alt="">
         <h3>M-SUPPLY</h3>
         <p>Visitez notre plateforme de formation en ligne e-caps</p>
-        <span class="left"><img src="IMG/cropped-pdddap.png" alt=""></span>
-        <span class="right"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#EC681D" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link-icon lucide-external-link"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></span>
       </div>
       <div class="link-box">
+        <img src="IMG/logo.png" alt="">
         <h3>GARDE</h3>
         <p>Retrouvez ici, vos pharmacies de garde</p>
-        <span class="left"><img src="IMG/logo.png" alt=""></span>
-        <span class="right"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#EC681D" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link-icon lucide-external-link"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></span>
       </div>
       <div class="link-box">
+        <span class="left"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#EC681D" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-film-icon lucide-film"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M7 3v18"/><path d="M3 7.5h4"/><path d="M3 12h18"/><path d="M3 16.5h4"/><path d="M17 3v18"/><path d="M17 7.5h4"/><path d="M17 16.5h4"/></svg></span>
         <h3>MEDIATHEQUE</h3>
         <p>Retrouvez et découvrez nos différentes activités en images</p>
-        <span class="left"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#EC681D" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-film-icon lucide-film"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M7 3v18"/><path d="M3 7.5h4"/><path d="M3 12h18"/><path d="M3 16.5h4"/><path d="M17 3v18"/><path d="M17 7.5h4"/><path d="M17 16.5h4"/></svg></span>
-        <span class="right"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#EC681D" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link-icon lucide-external-link"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></span>
       </div>
     </section>
 
@@ -176,157 +172,96 @@
       </div>
     </section>
 
-    <section class="information">
+    <section id="notif">
+      <div>
+        <h3>
+          <strong>
+            Merci de visiter la bibliothèque en ligne du secteur pharmaceutique !!!
+          </strong>
+        </h3>
+        <a href="">Decouvrir</a>
+      </div>
+    </section>
 
-      <!-- Autres actualités -->
+    <!-- Autres actualités -->
+    <section class="information">
+      
       <div id='Actualités'>
         <h2>ACTUALITÉS</h2>
+        <div class='articles'>
+          <div class='box_articles'>
+            <article>
+              <img src="https://img.freepik.com/free-photo/group-afro-americans-working-together_1303-8979.jpg?t=st=1746546355~exp=1746549955~hmac=831f433cc1ca92235212802c237c7e501d84f9714489a7a2aca852bc950f0064&w=1380" alt="Ambassadeurs CMU">
+              <p>20/15/2025 * <a href="">Actualités</a></p>
+              <div>
+                <h3>Promotion de la CMU/ Voix des Anges - V.D.A et Apoutchou National faits ambassadeurs </h3>
+                <p>Le groupe zouglou "VDA" et Apoutchou National sont désormais des ambassadeurs de la CMU après avoir sorti un titre intitulé "CMU"... <span><a href="">lire la suite</a></span></p>
+              </div>
+            </article>
+        
+            <article>
+              <img src="https://img.freepik.com/free-photo/group-afro-americans-working-together_1303-8979.jpg?t=st=1746546355~exp=1746549955~hmac=831f433cc1ca92235212802c237c7e501d84f9714489a7a2aca852bc950f0064&w=1380" alt="Accord de coopération">
+              <p>20/15/2025 * <a href="">Actualités</a></p>
+              <div>
+                <h3>Coopération Bilatérale/ Le ministre Pierre DIMBA et son homologue de Sao Tomé</h3>
+                <p>Le groupe zouglou "VDA" et Apoutchou National sont désormais des ambassadeurs de la CMU après avoir sorti un titre intitulé "CMU"... <span><a href="">lire la suite</a></span></p>
+              </div>
+            </article>
 
-        <div>
-          <article>
-            <img src="https://img.freepik.com/free-photo/group-afro-americans-working-together_1303-8979.jpg?t=st=1746546355~exp=1746549955~hmac=831f433cc1ca92235212802c237c7e501d84f9714489a7a2aca852bc950f0064&w=1380" alt="Ambassadeurs CMU">
-            <p>20/15/2025 * <a href="">Actualités</a></p>
-            <div>
-              <h3>Promotion de la CMU/ Voix des Anges - V.D.A et Apoutchou National faits ambassadeurs </h3>
-              <p>Le groupe zouglou "VDA" et Apoutchou National sont désormais des ambassadeurs de la CMU après avoir sorti un titre intitulé "CMU". <span><a href="">lire la suite</a></span></p>
-            </div>
-          </article>
-      
-          <article>
-            <img src="https://img.freepik.com/free-photo/group-afro-americans-working-together_1303-8979.jpg?t=st=1746546355~exp=1746549955~hmac=831f433cc1ca92235212802c237c7e501d84f9714489a7a2aca852bc950f0064&w=1380" alt="Accord de coopération">
-            <p>20/15/2025 * <a href="">Actualités</a></p>
-            <div>
-              <h3>Coopération Bilatérale/ Le ministre Pierre DIMBA et son homologue de Sao Tomé</h3>
-              <p>Le groupe zouglou "VDA" et Apoutchou National sont désormais des ambassadeurs de la CMU après avoir sorti un titre intitulé "CMU". <span><a href="">lire la suite</a></span></p>
-            </div>
-          </article>
+            <article>
+              <img src="https://img.freepik.com/free-photo/group-afro-americans-working-together_1303-8979.jpg?t=st=1746546355~exp=1746549955~hmac=831f433cc1ca92235212802c237c7e501d84f9714489a7a2aca852bc950f0064&w=1380" alt="Ambassadeurs CMU">
+              <p>20/15/2025 * <a href="">Actualités</a></p>
+              <div>
+                <h3>Promotion de la CMU/ Voix des Anges - V.D.A et Apoutchou National faits ambassadeurs </h3>
+                <p>Le groupe zouglou "VDA" et Apoutchou National sont désormais des ambassadeurs de la CMU après avoir sorti un titre intitulé "CMU"... <span><a href="">lire la suite</a></span></p>
+              </div>
+            </article>
 
-          <article>
-            <img src="https://img.freepik.com/free-photo/group-afro-americans-working-together_1303-8979.jpg?t=st=1746546355~exp=1746549955~hmac=831f433cc1ca92235212802c237c7e501d84f9714489a7a2aca852bc950f0064&w=1380" alt="Ambassadeurs CMU">
-            <p>20/15/2025 * <a href="">Actualités</a></p>
-            <div>
-              <h3>Promotion de la CMU/ Voix des Anges - V.D.A et Apoutchou National faits ambassadeurs </h3>
-              <p>Le groupe zouglou "VDA" et Apoutchou National sont désormais des ambassadeurs de la CMU après avoir sorti un titre intitulé "CMU". <span><a href="">lire la suite</a></span></p>
-            </div>
-          </article>
-
-          <article>
-            <img src="https://img.freepik.com/free-photo/group-afro-americans-working-together_1303-8979.jpg?t=st=1746546355~exp=1746549955~hmac=831f433cc1ca92235212802c237c7e501d84f9714489a7a2aca852bc950f0064&w=1380" alt="Ambassadeurs CMU">
-            <p>20/15/2025 * <a href="">Actualités</a></p>
-            <div>
-              <h3>Promotion de la CMU/ Voix des Anges - V.D.A et Apoutchou National faits ambassadeurs</h3>
-              <p>Le groupe zouglou "VDA" et Apoutchou National sont désormais des ambassadeurs de la CMU après avoir sorti un titre intitulé "CMU". <span><a href="">lire la suite</a></span></p>
-            </div>
-          </article>
+            <article>
+              <img src="https://img.freepik.com/free-photo/group-afro-americans-working-together_1303-8979.jpg?t=st=1746546355~exp=1746549955~hmac=831f433cc1ca92235212802c237c7e501d84f9714489a7a2aca852bc950f0064&w=1380" alt="Ambassadeurs CMU">
+              <p>20/15/2025 * <a href="">Actualités</a></p>
+              <div>
+                <h3>Promotion de la CMU/ Voix des Anges - V.D.A et Apoutchou National faits ambassadeurs</h3>
+                <p>Le groupe zouglou "VDA" et Apoutchou National sont désormais des ambassadeurs de la CMU après avoir sorti un titre intitulé "CMU"... <span><a href="">lire la suite</a></span></p>
+              </div>
+            </article>
+          </div>
         </div>
 
-        <a href="#" id='plusDarticle'>Tout voir.......</a>
+        <div class="indique">
+          <span class="indique_items indique_active"></span>
+          <span class="indique_items indique_active"></span>
+          <span class="indique_items indique_active"></span>
+          <span class="indique_items indique_active"></span>
+          <span class="indique_items"></span>
+          <span class="indique_items"></span>
+          <span class="indique_items"></span>
+          <span class="indique_items"></span>
+          <span class="indique_items"></span>
+          <span class="indique_items"></span>
+        </div>
       </div>
     
       <!-- Événements -->
-      <div class="RECRU">
+      <!-- <div class="RECRU">
         <h2>RECRUTEMENTS</h2>
         <img src="IMG/Recrutement-2023-413x276.jpg" alt="Journée mondiale de la santé mentale">
         <p>Les candidats intéressés doivent soumettre une lettre de motivation et un curriculum vitae à recruiting@projectlastmile.com avec pour objet de l’e-mail « Assistant de support pilote PLM Côte d’Ivoire » au plus tard le 22 décembre 2023. Cliquez ici pour télécharger l’offre<br>
         Mar. 10 Oct. 2023</p>
         <a href="#" id="lecture">Postuler</a>
-      </div>
-    </section>
-    
-    <section class="EMPLOIYE">
-      <div class="employe-jour">
-        <div class="employe-text">
-          <h3>PORTRAIT D'UN AGENT</h3>
-          <p>
-            Titulaire d’un doctorat en sciences pharmaceutiques et biologiques obtenu à l’UFR-SPB d’Abidjan, l’agent de ce mois est spécialiste en gestion logistique et en gestion des projets et des programmes.   En janvier 2004, Dr OGA Eulalie épouse GUEHI débute sa carrière professionnelle comme pharmacien assistant à la pharmacie ARC-EN-CIEL. Poste qu’elle occupera pendant 9 ans. […]        
-          </p>
-          <marquee class="annuaire-btn" behavior="scroll" direction="right"><a href="#" class="link">En savoir plus →</a></marquee>
-        </div>
-        <div class="employe-icon">
-          <div class="circle-user"><img src="IMG/Dr-Oga-352x276.jpeg" alt=""></div>
-        </div>
-      </div>
+      </div> -->
     </section>
 
-    <!-- <section>
-      <div id="Actualités">
-        <h2 class="Titre_Section">Articles et panel d'échanges</h2>
-        <p class="Description_Section">Inscrivez vous a notre newsletter et restez au parfum de nos dernieres publications</p>
+    <section id="last_information">
+      <div class="last_information_items"></div>
+      <div class="last_information_items"></div>
+      <div class="last_information_items"></div>
+    </section>
 
-        <div id="Articles">
-          <article>
-            <img src="https://via.placeholder.com/300x200" alt="Article 1">
-            <div>
-              <h3>Titre Article 1</h3>
-              <p>Un bref résumé de l'article pour attirer l'attention du lecteur...</p>
-              <a href="#">Lire plus →</a>
-            </div>
-          </article>
-
-          <article>
-            <img src="https://via.placeholder.com/300x200" alt="Article 2">
-            <div>
-              <h3>Titre Article 2</h3>
-              <p>Petit texte pour présenter cet article et susciter l'intérêt...</p>
-              <a href="#">Lire plus →</a>
-            </div>
-          </article>
-
-          <article>
-            <img src="https://via.placeholder.com/300x200" alt="Article 3">
-            <div>
-              <h3>Titre Article 3</h3>
-              <p>Résumé de l'article avec un style sobre et professionnel...</p>
-              <a href="#">Lire plus →</a>
-            </div>
-          </article>
-
-          <article>
-            <img src="https://via.placeholder.com/300x200" alt="Article 4">
-            <div>
-              <h3>Titre Article 4</h3>
-              <p>Une petite description rapide pour cet article très intéressant...</p>
-              <a href="#">Lire plus →</a>
-            </div>
-          </article>
-
-          <article>
-            <img src="https://via.placeholder.com/300x200" alt="Article 5">
-            <div>
-              <h3>Titre Article 5</h3>
-              <p>Texte court pour illustrer la cinquième actualité du site...</p>
-              <a href="#">Lire plus →</a>
-            </div>
-          </article>
-
-          <article>
-            <img src="https://via.placeholder.com/300x200" alt="Article ">
-            <div>
-              <h3>Titre Article 6</h3>
-              <p>Texte court pour illustrer la cinquième actualité du site...</p>
-              <a href="#">Lire plus →</a>
-            </div>
-          </article>
-
-          <article>
-            <img src="https://via.placeholder.com/300x200" alt="Article 7">
-            <div>
-              <h3>Titre Article 7</h3>
-              <p>Texte court pour illustrer la cinquième actualité du site...</p>
-              <a href="#">Lire plus →</a>
-            </div>
-          </article>
-
-        </div>
-      </div>
-    </section> -->
-
-    <section>
+    <div>
       <div id="nos_partenaires">
         <h2 class="Titre_Section">Nos Partenaires</h2>
-        <p class="Description_Section">Découvrez nos partenaires officiels</p>
         <div id="Partenaire">
-
           <!-- Première div avec 7 logos -->
           <div id="rightoleft">
             <a href=""><img src="IMG/FDNU.jpg" alt="Partenaire 1"></a>
@@ -345,13 +280,18 @@
             <a href=""><img src="IMG/usaid-logo.jpg" alt="Partenaire 14"></a>
             <a href=""><img src="IMG/VillageReach_logo.jpg" alt="Partenaire 14"></a>
           </div>
-
         </div>
-        
       </div>
-    </section>
+    </div>
 
   </main>
+
+  <div id="floatingBubble">
+    <!-- footer -->
+    <?php include 'Element/Andrew.php'; ?>
+    <!-- footer -->
+  </div>
+
 
   <!-- footer -->
   <?php include 'footer.php'; ?>

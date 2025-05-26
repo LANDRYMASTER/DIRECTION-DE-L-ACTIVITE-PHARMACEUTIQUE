@@ -134,7 +134,8 @@ nav > ul > li > a:hover {
 
 section {
   max-width: 1200px;
-  margin: auto;
+  margin: 80px auto;
+
 }
 
 /* Flash info */
@@ -279,54 +280,37 @@ section {
 .quick-links {
   display: grid;
   grid-template-columns: repeat(4 , 1fr );
-  padding: 30px;
+  padding: 50px 10px; 
   gap: 20px;
 }
   
-.link-box {
+.quick-links .link-box {
   padding: 20px;
   border: 1px solid #ddd;
-  text-align: center;
   border-radius: 8px;
   transition: 1s ease;
   cursor: pointer;
-  position: relative;
   box-shadow: -2px -2px 5px #ec691dc6;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
   background-color: rgba(255, 255, 255, 0.6);
 }
 
-.link-box h3{
-  margin: 10px 0;
-}
-  
-.link-box:hover {
+.quick-links .link-box:hover {
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
   transform: translateY(-20px);
 }
 
-.link-box:hover .link-box:not(:hover) {
-  box-shadow: none;
-}
-
-.left {
-    position: absolute;
-    left: 25px;
-    top: 10px;
-}
-
-.left img{
+.quick-links .link-box img{
     width: 40px;
     aspect-ratio: 1;
 }
 
-.right {
-    position: absolute;
-    right: 20px;
-    top: 10px;
+.quick-links .link-box h3{
+  margin: 10px 0;
 }
+
+
 
 .Annonce {
   width: 100%;
@@ -421,36 +405,6 @@ section {
   position: absolute;
 }
 
-/* #box_Documents_Elaborés div  ,#box_Pharmanews div  ,#box_Documents_Officiels div {
-  min-width: 250px;
-  height: 100%;
-  background-color: #ccc;
-  border-radius: 15px;
-} */
-
-/* Section portrait  */
-
-.EMPLOIYE {
-  background-color: #2e7d32;
-  color: white;
-  padding: 10px 0px;
-  margin: 50px auto;
-}
-
-.employe-jour {
-    display: grid;
-    grid-template-columns: repeat(2 , 1fr);
-    column-gap: 20px;
-    max-width: 1000px;
-    margin: auto;
-}
-  
-.employe-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-  
 .annuaire-btn {
   margin-top: 20px;
   padding: 12px 20px;
@@ -468,15 +422,6 @@ section {
   text-decoration: none;
   box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
 }
-  
-  .employe-icon .circle-user {
-    font-size: 100px;
-    background: white;
-    color: #2e7d32;
-    border-radius: 50%;
-    padding: 20px;
-    margin-top: 20px;
-  }
 
 @media (max-width: 1300px) {
   .quick-links {
@@ -490,82 +435,21 @@ section {
   }
 }
 
-#Actualités {
-  display: flex;
-  flex-direction: column;
-  max-width: 1000px;
-  margin: auto;
-  text-align: center;
-}
-
-.Titre_Section {
-  font-size: 30px;
-  margin: 10px 0;
-  font-family: sans-serif;
-}
-
-.Description_Section {
-  margin: 5px 0px 25px 0px;
-}
-
-#Articles {
-  display: flex;
-  position: relative;
-  gap: 20px;
-  justify-content: center;
-  margin: 20px;
-  padding: 30px 0;
-  
-}
-
-#Articles article {
-  padding: 5px;
-  border-radius: 5px;
-  width: 300px;
-  height: 400px;
-  transition: 0.5s ease-out;
-  display: grid;
-  grid-template-rows: repeat(2 , 1fr);
-  row-gap: 5px;
-}
-
-#Articles article:hover {
-  transform: translateY(-10px);
-  box-shadow: 0px 0px 5px #EC681D;
-}
-
-#Articles article > img {
-  background: #ddd;
-  border-radius: 5px;
-  border: 1px solid rgba(0, 0, 0, 0.6);
-}
-
-#Articles article div {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
 #nos_partenaires {
-  max-width: 1000px;
+  width: 100%;;
   margin: 50px auto;
   text-align: center;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
+}
+
+#nos_partenaires h2 {
+  margin-bottom: 20px;
+  text-transform: uppercase;
 }
 
 #Partenaire {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
   width: 100%;
-}
-
-#Partenaire div {
-  display: flex;
-  gap: 10px;
-  flex-wrap: nowrap;
 }
 
 #Partenaire a {
@@ -573,43 +457,66 @@ section {
 }
 
 #Partenaire img {
-  width: 200px;
-  height: 120px;
+  width: 100px;
+  height: 60px;
   border-radius: 5px;
-  background-color: #ddd;
-}
-
-#rightoleft {
-  animation: rightoleft 50s infinite linear;
-}
-
-@keyframes rightoleft {
-  0%, 100% {
-    transform: translateX(0px);
-  }
-  50% {
-    transform: translateX(-1250px);
-  }
+  filter:blur(1.2);
+  border: 1px solid #444444;
 }
 
 /* Structure générale */
 
 .information {
-  display: grid;
-  grid-template-columns: 2.5fr 1fr;
-  gap: 20px;
-  padding: 20px;
-  flex-wrap: wrap;
-  background-color: #fbffe2;
+  border-top: 2px solid orange;
+  display: flex;
+  width: 100%;
+  padding: 20px 0;
 }
 
 #Actualités {
   display: flex;
-  justify-content: center;
+  width: 100%;
+  height: 100%;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-#plusDarticle {
+.articles {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 500px;
+  margin-top: 20px;
+}
+
+.box_articles {
+  position: absolute;
+  display: flex;
+  height: 100%;
+  gap: 20px;
+  width: 100%;
+  margin: 0 10px;
+}
+
+.indique {
+  display: flex;
+  gap: 10px;
+  padding: 10px 30px;
+}
+
+.indique_items {
+  border-radius: 50%;
+  width: 12px;
+  aspect-ratio: 1;
+  border: 2px solid #ccc;
+}
+
+.indique_active {
+  background-color: #2e7d32;
+}
+
+/* #plusDarticle {
   color: white;
   font-size: 25px;
   font-weight: bold;
@@ -619,16 +526,17 @@ section {
   text-decoration: none;
   padding: 10px 20px;
   border-radius: 20px;
+  margin-top: 20px;
 }
 
 #plusDarticle:hover {
   color: black;
   background-color: #ec691db4;
-}
+} */
 
 /* Colonnes */
 
-.RECRU {
+/* .RECRU {
   display: flex;
   flex-direction: column;
 }
@@ -667,12 +575,12 @@ section {
 }
 
 /* Titres */
-.information h2, .information h3 {
+.information h3 {
   border-top: 2px solid orange;
   text-align: center;
   padding: 20px 0;
 }
-
+/*
 .RECRU img {
   min-height: 200px;
   width: 100%;
@@ -682,12 +590,12 @@ section {
 
 .RECRU p {
   padding: 0 15px;
-}
+} */
 
 /* Actualités */
 .information article {
   display: grid;
-  grid-template-columns: 1fr;
+  width: 280px;
   margin-bottom: 20px;
   height: 470px;
 }
@@ -709,12 +617,6 @@ section {
   justify-content: space-between;
 }
 
-.information > div > div {
-  display: grid;
-  grid-template-columns: repeat(2 , 1fr);
-  gap: 10px;
-}
-
 .information article img {
   height: 100%;
   background-color: #ccc;
@@ -725,6 +627,7 @@ section {
 .information article > div > p {
   margin: 5px 0;
   font-size: 16px;
+  text-align: start;
   line-height: 28px;
   color: #1F1F1FB3;
   font-weight: 400;
@@ -736,7 +639,18 @@ section {
   color: #EC681D;
   position: absolute;
   right: 20px;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: #EC681D;
+  color: white;
+  transition: 0.5s ease;
 }
+
+.information article > div > p a:hover {
+    color: black;
+    background-color: #ec691db4;
+} 
 
 /* Événement */
 /* .information div img {
